@@ -1,3 +1,7 @@
+# C# Exercises
+
+This project is a collection of exercises to be done in C#
+
 ## Exercice 1
 - Vérifier que l'échange d'une variable de type Value doive se faire avec le modificateur **ref**.
 - Vérifier que l'échange se fait simplement avec une sémantique VT:  tmp=A;A=B; …
