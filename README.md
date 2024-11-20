@@ -2,21 +2,28 @@
 
 This project is a collection of exercises to be done in C#
 
+COMMANDE A FAIRE A CHAQUE EXERCICE 
+root@DESKTOP-ECEKC98:/mnt/c/Users/PC/Documents/Projets/csharp/csharp-exercises/Exercice1# mcs Program.cs
+root@DESKTOP-ECEKC98:/mnt/c/Users/PC/Documents/Projets/csharp/csharp-exercises/Exercice1# mono Program.exe
+
+
 ## Exercice 1
 - Vérifier que l'échange d'une variable de type Value doive se faire avec le modificateur **ref**.
 - Vérifier que l'échange se fait simplement avec une sémantique VT:  tmp=A;A=B; …
 - Prendre conscience que par défaut, à l'inverse du C, dans une structure tout est **private**.
 - Plutôt redéfinir la méthode .ToString() que créer une nouvelle méthode (Afficher(), Display(), …) car c'est la méthode standard et par son retour qui permet la concaténation, la sérialisation, … et l'affichage aussi bien sûr. Plus d'explications ici: https://openclassrooms.com/forum/sujet/methode-tostring-vs-afficher 
-
+Fait
 ## Exercice 2
 - Apprendre à utiliser un objet  *StopWatch* ou *DateTime*
 - Tester saisie et calcul avec 'W' (pas de crash?), -1 (pas de calcul?), 0 ou 1 (affichage), (0.1)-->0.31 calcul correct de l'erreur (valeur absolue ? 1027 
+Fait
+![Capture d'écran du programme](Exercice2.png)
 
 ## Exercice 3
 - Apprendre à désérialiser avec la classe *StreamReader* et les méthodes Read… 
 - On peut aussi utiliser un **using** pour débloquer le fichier à la fin de la lecture
 - Pour ceux qui sont attentifs ou qui le savent déjà utilisation de StringBuilder préférable
-
+![Capture d'écran du programme](Exercice3.png)
 ## Exercice 4
 - Trouver un moyen de renvoyer deux valeurs: 
 - **Tuple< T1, T2>** , (int[], int[] ) SwapF(…),  jagged Array[][], **ref List**, **ref int[]** …

@@ -14,8 +14,10 @@ public struct Point3D {
     public double DistanceToOrigin() {
         return Math.Sqrt((Math.Pow(X, 2) + Math.Pow(Y, 2) + Math.Pow(Z, 2)));
     }
-
+    //Vérifier que l'échange d'une variable de type Value doive se faire avec le modificateur ref.
     public static void SwapPoints(ref Point3D point1, ref Point3D point2) {
+        //L'échange entre les deux points est correctement effectué avec des variables temporaires (tmp1, tmp2, tmp3) pour stocker les coordonnées
+        //Cette logique respecte la sémantique VT demandée.
         double tmp1 = point1.X;
         double tmp2 = point1.Y;
         double tmp3 = point1.Z;
